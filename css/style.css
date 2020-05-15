@@ -1655,7 +1655,9 @@ ul.social_section_1info a:hover {
 }
 
 footer {
-    background: grey;
+    background: black;
+    height: 150px;
+    width: 100%;
 }
 
 .logo-2 a {
