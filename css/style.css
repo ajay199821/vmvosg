@@ -1655,7 +1655,7 @@ ul.social_section_1info a:hover {
 }
 
 footer {
-    background: #1e272e;
+    background: grey;
 }
 
 .logo-2 a {
@@ -1692,30 +1692,6 @@ footer {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-}
-
-.w3ls-footer ul li a span.fa-facebook-f:hover {
-    background: #3b5998;
-    color: #fff;
-    border-color: #3b5998;
-}
-
-.w3ls-footer ul li a span.fa-twitter:hover {
-    background: #55acee;
-    color: #fff;
-    border-color: #55acee;
-}
-
-.w3ls-footer ul li a span.fa-dribbble:hover {
-    background: #f26522;
-    color: #fff;
-    border-color: #f26522;
-}
-
-.w3ls-footer ul li a span.fa-vk:hover {
-    background: #45668e;
-    color: #fff;
-    border-color: #45668e;
 }
 
 /* //social-icons footer */
