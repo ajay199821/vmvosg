@@ -93,7 +93,7 @@ nav {
     font-size: 0.8em;
     padding: 10px 20px;
     text-decoration: none;
-    color: #333;
+    color: black;
     font-weight: 700;
     letter-spacing: -1.5px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1656,7 +1656,7 @@ ul.social_section_1info a:hover {
 
 footer {
     background: black;
-    height: 150px;
+    height: 175px;
     width: 100%;
 }
 

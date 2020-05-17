@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>VMVOSG Kuttanad</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Clack Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <!-- //Fonts -->
+
+</head>
+
+<body>
+    <!-- mian-content -->
+    <section class="main-content" id="home">
+        <!-- /header -->
+        <header>
+            <div class="container-fluid px-lg-5 px-3">
+                <!-- nav -->
+                <nav class="py-2 d-lg-flex">
+                    <div id="logo">
+                        <h1><a class="navbar-brand logo" href="index.html">
+                                <span class="fa fa-camera" aria-hidden="true"></span>VMVOSG
+                            </a></h1>
+                    </div>
+
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop" />
+                    <ul class="menu ml-auto">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Our Mission</a></li>
+                        <li  class="active"><a href="Projects.html">Projects</a></li>
+                        <li><a href="scout.html">SOA</a></li>
+                        <li><a href="members.html">MEMBERS</a></li>
+                        <li>
+                            <!-- First Tier Drop Down -->
+                            <label for="drop-2" class="toggle">GALLERY <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                            <a href="#">GALLERY<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <input type="checkbox" id="drop-2" />
+                            <ul class="inner-ul">
+                                <li><a href="image.html">IMAGES</a></li>
+                                <li><a href="videos.html">Videos</a></li>
+                                <li><a href="downloads.html">Downloads</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </nav>
+                <!-- //nav -->
+            </div>
+        </header>
+        <!-- //header -->
+        <!-- /banner-inner -->
+        <div class="page-inner">
+
+        </div>
+        <!---->
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Scheme of Advancement - Scout</li>
+        </ol>
+        <!-- //banner-inner -->
+
+    </section>
+    <!--// mian-content -->
+    <!--/services -->
+    <section class="blog_hcls_w3layouts py-lg-5 py-md-4" id="services">
+        <div class="container py-sm-5 py-4">
+            <div class="header py-lg-5 py-3 text-center">
+                <h3 class="tittle mb-lg-3 mb-3">Projects</h3>
+        <div class="row">
+  <div class="column">
+    <img src="images/mop.png" style="width:100%" onclick="openModal();currentSlides(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/surf smart.png" style="width:100%" onclick="openModal();currentSlides(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/internet.png" style="width:100%" onclick="openModal();currentSlides(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/radio.jpeg" style="width:100%" onclick="openModal();currentSlides(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="images/mop.png">
+      <br>
+      <h4 align="center">The Messengers of Peace programme is an initiative by the World Organization of the Scout Movement, which along with the Scouts of the World Award and the World Scout Environment Programmes form the Better World Framework programme.</h4>
+    </div>
+
+    <div class="mySlides">
+      <img src="images/surf smart.png">
+      <h4 align="center">Surf Smart is a non-formal education curriculum designed to inform young people about how to connect positively online, protect themselves from online threats and respect their rights and reputation on the internet.</h4>
+    </div>
+
+    <div class="mySlides">
+      <img src="images/internet.jpg">
+    </div>
+    
+    <div class="mySlides">
+      <img src="images/radio.jpeg">
+    <h4 align="center">The term Radio Scouts is used as shorthand for Scouts and Scout Leaders who are interested in Amateur Radio.</h4>
+    
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlides(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>     
+            </div>
+            </div>
+    </section>
+    <!--// services -->
+    <!--/team -->
+    
+    <!--// services -->
+    <!-- contact -->
+    <!-- //contact -->
+    <!-- footer -->
+    <footer class="footer-content py-sm-5 py-4">
+            <div class="top_move text-center">
+                <a href="#home" class="move-top"><span class="fa fa-angle-up  mb-3" aria-hidden="true"></span></a>
+            </div>
+            <!-- social icons footer -->
+            <!-- copyright -->
+            <h5 class="copy-right-grids text-li text-center my-sm-4 my-4" style="color: white;">© 2020 VMVOSG | Design by Twins Solutions</h5>
+            <!-- //copyright -->
+        </div>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>
